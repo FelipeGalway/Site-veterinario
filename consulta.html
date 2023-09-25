@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Site Imobiliária</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Bordas Arredondadas com CSS</title>
+  <style type="text/css">
+    img {
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+        <ul>
+            
+            <li><a href="index.html">Início</a></li>
+            <li><a href="consulta.html">Marcar Consulta</a></li>
+            <li><a href="historico.html">Histórico do Tratamento</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+    </nav>
+</header>
+
+  <div class="container">
+    <h1>Agende sua consulta</h1>
+    <section class="form">
+      <form id="Form" action="#" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="name">Animal:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="message">Descreva os Sintomas:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <label for="dataConsulta">Data da Consulta:</label>
+        <input type="date" id="dataConsulta" name="dataConsulta" required>
+
+        <label for="horarioConsulta">Horário da Consulta:</label>
+        <input type="time" id="horarioConsulta" name="horarioConsulta" required>
+
+        <button type="submit">Agendar</button>
+      </form>
+  </section>
+
+    <section class="contact-info">
+      <p><i class="fas fa-map-marker-alt"></i> Endereço: R. Irênio Greco, 4580 - Vila Imperador, Franca - SP, 14405-1913
+      </p>
+      <p><i class="fas fa-phone"></i> Telefone: (16) 3322-7474</p>
+      <p><i class="far fa-envelope"></i> Email: contato@veterinariaxyz.com</p>
+  </section>
+    </div>
+
+  <footer>
+    <h2>&copy; 2023 Clínica Veterinária XYZ. Todos os direitos reservados.</h2>
+  </footer>
+
+</body>
+
+</html>
