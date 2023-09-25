@@ -66,6 +66,9 @@ nav ul li a {
 input[type="text"],
 input[type="number"],
 input[type="password"],
+input[type="address"],
+input[type="tel"],
+input[type="email"],
 select {
     width: 100%;
     padding: 10px;
@@ -86,6 +89,16 @@ span {
     max-width: 350px;
     margin-top: 70px;
     margin-left: 50px; 
+}
+
+#cadastro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 550px;
+    margin-top: 20px;
+    margin-left: 50px; 
+    margin-bottom: 20px;
 }
 
 footer {
@@ -140,3 +153,4 @@ button[type="submit"] {
     margin: 10px 0;
     font-size: 18px;
 }
+
