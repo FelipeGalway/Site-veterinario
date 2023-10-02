@@ -124,6 +124,18 @@ label {
     font-weight: bold;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: inline-block;
+    width: 45%;
+    margin: 2.5%;
+    vertical-align: top;
+}
+
 input[type="text"],
 input[type="time"],
 input[type="date"],
@@ -142,6 +154,7 @@ button[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .contact-info {
