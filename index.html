@@ -5,90 +5,52 @@
   <meta charset="UTF-8">
   <title>Site Imobiliária</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>Bordas Arredondadas com CSS</title> 
+  <title>Bordas Arredondadas com CSS</title>
 </head>
 
 <body>
+
   <header>
     <div class="login-bar">
-      <a href="#">Bem vindo, Nome</a>
+      <a href="#">Bem vinda, Secretária</a>
       <span>|</span>
       <a href="#">Sair</a>
-  </div>
+    </div>
     <nav>
       <ul>
-
-        <li><a href="index.html">Início</a></li>
-        <li><a href="consulta.html">Marcar Consulta</a></li>
+        <li><a href="index.html">Marcar Consulta</a></li>
         <li><a href="historico.html">Histórico do Tratamento</a></li>
-        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="cadastro_cliente.html">Cadastro do Cliente</a></li>
+        <li><a href="cadastro_veterinario.html">Cadastro do Veterinário</a></li>
+        <li><a href="cadastro_especie.html">Cadastro da Espécie</a></li>
+        <li><a href="cadastro_animal.html">Cadastro do Animal</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="about-store">
-    <section class="hero">
-      <h1>Bem-vindo à Clínica Veterinária XYZ</h1>
-      <p>Cuidando com amor e dedicação dos seus melhores amigos de quatro patas.</p>
+  <div class="container">
+    <h1>Agendar Consulta</h1>
+    <section class="form">
+      <form id="Form" action="#" method="post">
+        <label for="name">Nome do Cliente:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="name">Animal:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="message">Sintomas:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <label for="dataConsulta">Data da Consulta:</label>
+        <input type="date" id="dataConsulta" name="dataConsulta" required>
+
+        <label for="horarioConsulta">Horário da Consulta:</label>
+        <input type="time" id="horarioConsulta" name="horarioConsulta" required>
+
+        <button type="submit">Agendar</button>
+      </form>
     </section>
-
-    <h1>Nossa Jornada: Cuidando com Amor e Dedicação</h1>
-    <p>
-      Há uma história especial por trás da Clínica Veterinária XYZ. Nossa jornada começou com uma paixão compartilhada
-      por todos os membros da equipe - a paixão por cuidar dos nossos amigos de quatro patas.
-
-      Tudo começou com a visão de criar um lugar onde cada animal recebesse atenção dedicada e amorosa,
-      independentemente de sua raça, tamanho ou idade. Essa visão se tornou realidade quando inauguramos nossa clínica
-      há mais de uma década.
-
-      Desde então, temos tido o privilégio de fazer parte das vidas de inúmeras famílias e seus animais de estimação.
-      Cada jornada de tratamento é única, e estamos aqui para apoiar nossos clientes a cada passo do caminho.
-
-      Nossos especialistas altamente qualificados não são apenas veterinários talentosos, mas também amantes de animais.
-      Eles dedicam seu tempo e conhecimento para garantir que cada consulta, cirurgia, exame e tratamento seja feito com
-      a maior competência e compaixão.
-
-      Aqui, na Clínica Veterinária XYZ, acreditamos que cada ronronar, latido ou abanar de rabo é uma linguagem que
-      merece ser ouvida e compreendida. Cada animal que entra em nossa clínica é tratado com respeito, cuidado e
-      carinho.
-
-      À medida que avançamos em nossa jornada, nosso compromisso com o bem-estar dos animais só cresce. Continuamos
-      investindo em tecnologia de ponta, treinamento constante e instalações de última geração para oferecer o melhor
-      atendimento possível.
-
-      Queremos agradecer a você, nossos queridos clientes, por confiarem em nós para cuidar de seus amados membros da
-      família peludos, penugentos e escamosos. Cada cauda abanando e olhar grato nos inspira a fazer mais, a ser
-      melhores, e a continuar nossa missão de cuidar dos animais que tanto amamos.
-
-      Bem-vindo à Clínica Veterinária XYZ, onde o amor e a dedicação se encontram para garantir que os nossos amigos de
-      quatro patas tenham vidas saudáveis e felizes. Juntos, fazemos a diferença.
-    </p>
-  </section>
-
-  <section class="testimonials">
-    <h1>Depoimentos de Nossos Clientes</h1>
-    <div class="testimonial">
-      <blockquote>
-        "Eu recomendo vivamente a Clínica Veterinária XYZ! Quando meu labrador, Max, sofreu um acidente, entrei em
-        pânico. A equipe da clínica entendeu minha preocupação e agiu rapidamente. Eles realizaram uma cirurgia
-        bem-sucedida e acompanharam o progresso de Max de perto durante todo o tratamento. O nível de cuidado e
-        profissionalismo é excepcional. Max está saudável novamente, e tudo isso é graças à equipe incrível da Clínica
-        Veterinária XYZ. Eles são realmente apaixonados pelo que fazem e fazem a diferença na vida dos nossos animais de
-        estimação." -
-        <b>Jesus de Nazaré, cliente</b>
-      </blockquote>
-    </div>
-
-    <div class="testimonial">
-      <blockquote>
-        "Eu não poderia estar mais feliz com os serviços da Clínica Veterinária XYZ. Meu gatinho, Whiskers, ficou doente
-        e eu estava completamente perdida. Desde o momento em que entrei na clínica, fui recebida com um sorriso
-        caloroso pela equipe. O veterinário foi extremamente atencioso e explicou tudo detalhadamente. Whiskers recebeu
-        tratamento imediato e agora está de volta ao seu eu brincalhão. Estou muito grata à Clínica Veterinária XYZ por
-        cuidar tão bem do meu amado animal de estimação." - <b>Renata Sorrah, cliente</b>
-      </blockquote>
-    </div>
-  </section>
+  </div>
 
   <footer>
     <h2>&copy; 2023 Clínica Veterinária XYZ. Todos os direitos reservados.</h2>
